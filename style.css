@@ -1,0 +1,71 @@
+body {
+    background-image: url("images/clayton-robbins-ihqB-c8C7Bc-unsplash.jpg");
+    background-repeat: repeat;
+    background-size: 100vw 100vw;
+    background-color: rgb(12, 12, 12);
+    color:azure;
+}
+
+.heading {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.cards_container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position:absolute;
+    right:10%;
+    left:10%;
+    
+    
+}
+
+
+.card {
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 5%;
+    font-size: 2em;
+    font-weight: 800;
+    color: rgb(134, 241, 131);
+    background-color: rgb(12, 12, 12);
+    height: 150px;
+    margin-bottom: 1%;
+    flex: 1 1 30%;
+    padding:  5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
+    transition: all 0.8s linear;
+    transform-style: preserve-3d;
+    position: relative;
+    
+    z-index: 1;
+
+}
+
+.card_container {
+    
+}
+
+.front {
+    backface-visibility: hidden;
+    z-index: 2;
+}
+
+.back {
+    z-index: 0; 
+    background-color:rgb(22, 2, 42);
+      
+}
+
+ .card:hover{
+    transform: rotateY(180deg);
+}
