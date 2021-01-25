@@ -45,24 +45,33 @@ body {
 }
 
 .front {
-    z-index: 20;
-    text-align: center;
+    z-index: 2;
     position: relative;
     backface-visibility: hidden;
     
 }
 
 .back {
-    z-index: 0; 
+    z-index: 1; 
     transform: rotateY(180deg);
     position: absolute;
     background-color: rgb(86, 14, 255);
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 5%;
     width: 100%;
-    text-align: center;
-    align-items: center;
     height: 100%;
+    
+    
+    
 }
 
 .card:hover {
     transform: rotateY(180deg);
+}
+
+.backtext {
+    text-align: center;
+    vertical-align: middle;
+    margin-top: 53px;
+    
 }
