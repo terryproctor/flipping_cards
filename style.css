@@ -1,7 +1,4 @@
-<<<<<<< HEAD
 
-=======
->>>>>>> 010d6c8e2030119cdffb6c51483ff2e65ee75fb9
 body {
     background-image: url("images/clayton-robbins-ihqB-c8C7Bc-unsplash.jpg");
     background-repeat: repeat;
@@ -20,7 +17,6 @@ body {
     width: 80%;
     margin-left: auto;
     margin-right: auto;
-<<<<<<< HEAD
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -33,12 +29,6 @@ body {
     -webkit-box-pack: justify;
         -ms-flex-pack: justify;
             justify-content: space-between;
-=======
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
->>>>>>> 010d6c8e2030119cdffb6c51483ff2e65ee75fb9
 }
 
 .card {
@@ -50,7 +40,6 @@ body {
     background-color: rgb(12, 12, 12);
     height: 150px;
     margin-bottom: 1%;
-<<<<<<< HEAD
     -webkit-box-flex: 1;
         -ms-flex: 1 1 30%;
             flex: 1 1 30%;
@@ -70,16 +59,6 @@ body {
     transition: all 0.8s linear;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
-=======
-    flex: 1 1 30%;
-    padding:  0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Lobster', cursive;
-    transition: all 0.8s linear;
-    transform-style: preserve-3d;
->>>>>>> 010d6c8e2030119cdffb6c51483ff2e65ee75fb9
     position: relative;
     background-color: rgb(50, 50 , 50)
     
@@ -88,7 +67,6 @@ body {
 .front {
     z-index: 2;
     position: relative;
-<<<<<<< HEAD
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
     background-color: inherit;
@@ -102,22 +80,12 @@ body {
     z-index: 0; 
     -webkit-transform: rotateY(180deg); 
             transform: rotateY(180deg);
-=======
-    backface-visibility: hidden;
-    
-}
-
-.back {
-    z-index: 1; 
-    transform: rotateY(180deg);
->>>>>>> 010d6c8e2030119cdffb6c51483ff2e65ee75fb9
     position: absolute;
     background-color: rgb(86, 14, 255);
     border: 1px solid rgb(240, 235, 235);
     border-radius: 5%;
     width: 100%;
     height: 100%; 
-<<<<<<< HEAD
     
 }
 
@@ -128,25 +96,12 @@ body {
 }
 
 .backtext, .fronttext {
-=======
-}
-
-.card:hover {
-    transform: rotateY(180deg);
-}
-
-.backtext {
->>>>>>> 010d6c8e2030119cdffb6c51483ff2e65ee75fb9
     text-align: center;
     vertical-align: middle;
     margin-top: 53px;
     
-<<<<<<< HEAD
 }
 
 
 
 /* need to check browser comptability, works fine in Chrome but not in Safari*/ 
-=======
-}
->>>>>>> 010d6c8e2030119cdffb6c51483ff2e65ee75fb9
